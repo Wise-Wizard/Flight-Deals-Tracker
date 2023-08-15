@@ -1,3 +1,7 @@
+import requests
+TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
+TEQUILA_API_KEY = "YOUR_API_KEY_HERE"
 class FlightSearch:
-    #This class is responsible for talking to the Flight Search API.
-    pass
+    def get_destination_code(self, city):
+        code = "Testing"
+        return code
